@@ -26,7 +26,7 @@ public class OrderActivity extends AppCompatActivity {
 
     public static final String DATA_TITLE = "TITLE";
     String strTitle;
-    int paket1 = 10500, paket2 = 34000, paket3 = 23700, paket4 = 22500;
+    int paket1 = 80000, paket2 = 94000, paket3 = 113700, paket4 = 102500;
     int itemCount1 = 0, itemCount2 = 0, itemCount3 = 0, itemCount4 = 0;
     int countP1, countP2, countP3, countP4, countP5, countP6, totalItems, totalPrice;
     ImageView imageAdd1, imageAdd2, imageAdd3, imageAdd4, imageAdd5, imageAdd6,
@@ -167,15 +167,15 @@ public class OrderActivity extends AppCompatActivity {
     private void setInputData() {
         btnCheckout.setOnClickListener(v -> {
             if (totalItems == 0 || totalPrice == 0) {
-                Toast.makeText(OrderActivity.this, "Ups, pilih menu makanan dulu!",
+                Toast.makeText(OrderActivity.this, "eiittss, tidak bisa",
                         Toast.LENGTH_SHORT).show();
-            } else if (totalItems < 10) {
-                Toast.makeText(OrderActivity.this, "Ups, minimal 10 pesanan!",
+            } else if (totalItems < 1) {
+                Toast.makeText(OrderActivity.this, "pilih dulu",
                         Toast.LENGTH_SHORT).show();
             } else {
                 orderViewModel.addDataOrder(strTitle, totalItems, totalPrice);
                 Toast.makeText(OrderActivity.this,
-                        "Yeay! Pesanan Anda sedang diproses, cek di menu riwayat ya!",
+                        "pesanan menu anda sudah dipilih, cek di booking pemesanan ya!",
                         Toast.LENGTH_SHORT).show();
                 finish();
             }

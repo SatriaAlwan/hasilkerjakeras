@@ -9,5 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#DD3E46</color>
     <color name="secondary">#FFF1D8</color>
+    <color name="Orange_login">#FF8C00</color>
+    <color name="AbuJanda">#E0E0E0</color>
+    <color name="BiruJanda">#121B4D</color>
+    <color name="BiruMuda">#0A05FB</color>
+    <color name="BiruRemaja">#091F6D</color>
     <!--<color name="secondary">#F9BB4B</color>-->
 </resources>

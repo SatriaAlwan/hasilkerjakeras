@@ -24,6 +24,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#B0C4DE"
             android:orientation="vertical">
 
             <LinearLayout
@@ -65,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#ffffe1e1"
+                    app:cardBackgroundColor="@color/AbuJanda"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">
@@ -89,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#ffd0ffdb"
+                    app:cardBackgroundColor="#90EE90"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
                     app:cardUseCompatPadding="true">

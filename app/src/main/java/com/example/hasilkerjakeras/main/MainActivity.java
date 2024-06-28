@@ -73,13 +73,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setTrending() {
-        modelTrending = new ModelTrending(R.drawable.complete_1,"MeatBandung", "Bandung");
+        modelTrending = new ModelTrending(R.drawable.restoran_1,"MeatBandung", "Bandung");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_2,"MeatJakarta", "Jakarta");
+        modelTrending = new ModelTrending(R.drawable.restoran_2,"MeatJakarta", "Jakarta");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_3,"MeatBali", "Bali");
+        modelTrending = new ModelTrending(R.drawable.restoran_3,"MeatBali", "Bali");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_4,"MeatYogyakarta", "Yogyakarta");
+        modelTrending = new ModelTrending(R.drawable.restoran_4,"MeatYogyakarta", "Yogyakarta");
         modelTrendingList.add(modelTrending);
 
         trendingAdapter = new TrendingAdapter(this, modelTrendingList);

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#00BFFF"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -16,6 +16,7 @@
             android:id="@+id/linearHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatImageView
@@ -27,9 +28,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:text="Welcome!"
-                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textColor="@color/Orange_login"
                 android:textSize="32sp"
                 android:textStyle="bold" />
 
@@ -38,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:text="Login to your account."
                 android:textColor="@color/black"
+                android:layout_marginTop="10dp"
                 android:textSize="16sp" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -62,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Masukan Username"
+                android:background="@color/white"
                 android:imeOptions="actionNext"
                 android:inputType="text"
                 android:maxLines="1"
@@ -95,6 +99,7 @@
                 android:layout_gravity="center"
                 android:hint="Masukan Password"
                 android:imeOptions="actionDone"
+                android:background="@color/white"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
@@ -122,7 +127,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:theme="@style/Theme.MaterialComponents"
-        app:backgroundTint="@color/primary"
+        app:backgroundTint="@color/BiruRemaja"
         app:cornerRadius="50dp"
         app:elevation="5dp"
         app:rippleColor="@color/primary" />
@@ -142,7 +147,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:theme="@style/Theme.MaterialComponents"
-        app:backgroundTint="@color/primary"
+        app:backgroundTint="@color/BiruRemaja"
         app:cornerRadius="50dp"
         app:elevation="5dp"
         app:rippleColor="@color/primary" />

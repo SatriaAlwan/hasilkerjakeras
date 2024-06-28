@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#00BFFF"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -16,6 +16,7 @@
             android:id="@+id/linearHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatImageView
@@ -29,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Welcome!"
+                android:layout_gravity="center"
                 android:textColor="@color/black"
                 android:textSize="32sp"
                 android:textStyle="bold" />
@@ -36,6 +38,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="Sign Up to your account."
                 android:textColor="@color/black"
                 android:textSize="16sp" />
@@ -62,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Masukan Email"
+                android:background="@color/white"
                 android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -92,6 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Masukan Username"
+                android:background="@color/white"
                 android:imeOptions="actionNext"
                 android:inputType="text"
                 android:maxLines="1"
@@ -124,6 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="Masukan Password"
+                android:background="@color/white"
                 android:imeOptions="actionDone"
                 android:inputType="textPassword"
                 android:maxLines="1"

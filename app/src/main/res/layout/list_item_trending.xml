@@ -30,7 +30,7 @@
                 android:layout_height="30dp"
                 android:layout_alignParentStart="true"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_chef" />
+                android:src="@drawable/ic_more_food" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="10dp"
@@ -16,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/AbuJanda"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -59,14 +60,13 @@
                                 android:id="@+id/tvPaket11"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rp 21.000"
                                 android:textColor="@color/primary" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="8dp"
-                                android:text="Rp 10.500"
+                                android:text="Rp 80.000"
                                 android:textColor="@color/primary" />
 
                         </LinearLayout>
@@ -112,31 +112,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_marginStart="-20dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/ic_promo"
-                android:backgroundTint="@color/primary"
-                android:elevation="5dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="5dp"
-                    android:layout_marginBottom="2dp"
-                    android:padding="5dp"
-                    android:text="Promo 50%"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                    android:textColor="@color/white"
-                    android:textSize="12sp" />
-
-            </LinearLayout>
-
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -144,7 +119,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/AbuJanda"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -181,7 +156,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp 34.000"
+                            android:text="Rp 94.000"
                             android:textColor="@color/primary" />
 
                     </LinearLayout>
@@ -239,7 +214,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/AbuJanda"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -276,7 +251,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp 23.700"
+                            android:text="Rp 113.700"
                             android:textColor="@color/primary" />
 
                     </LinearLayout>
@@ -327,7 +302,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/AbuJanda"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
 
@@ -340,7 +315,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/order_steak" />
+                    android:src="@drawable/order_steak"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -364,7 +339,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp 22.500"
+                            android:text="Rp 102.500"
                             android:textColor="@color/primary" />
 
                     </LinearLayout>
@@ -422,9 +397,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
+            android:visibility="invisible"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            tools:visibility="invisible">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -504,6 +481,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
+            android:visibility="invisible"
+
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="5dp">
