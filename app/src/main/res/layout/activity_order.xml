@@ -47,24 +47,15 @@
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="10dp">
 
-                    <ImageView
-                        android:id="@+id/imgPlace"
-                        android:layout_width="35dp"
-                        android:layout_height="35dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/ic_location"
-                        app:tint="@color/white" />
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="10dp"
-                        android:layout_toEndOf="@id/imgPlace"
-                        android:text="Pastikan alamat penerima sudah benar ya!"
+                        android:paddingLeft="20dp"
+                        android:text="Menu Makanan"
                         android:textColor="@android:color/white"
-                        android:textSize="14sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -82,7 +73,7 @@
                         android:layout_alignParentStart="true"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/ic_pickup" />
+                        android:src="@drawable/ic_menu" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -100,13 +91,6 @@
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Pesan Antar - Estimasi tiba 25 min"
-                            android:textColor="@android:color/black"
-                            android:textSize="12sp" />
 
                     </LinearLayout>
 

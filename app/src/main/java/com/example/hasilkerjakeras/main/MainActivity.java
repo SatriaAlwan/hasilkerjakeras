@@ -66,29 +66,20 @@ public class MainActivity extends AppCompatActivity {
     private void setCategories() {
         modelCategories = new ModelCategories(R.drawable.ic_complete, "Complete Package");
         modelCategoriesList.add(modelCategories);
-        modelCategories = new ModelCategories(R.drawable.ic_saving, "Saving Package");
+        modelCategories = new ModelCategories(R.drawable.ic_saving, "Event Packages");
         modelCategoriesList.add(modelCategories);
-        modelCategories = new ModelCategories(R.drawable.ic_healthy, "Healthy Package");
-        modelCategoriesList.add(modelCategories);
-        modelCategories = new ModelCategories(R.drawable.ic_fast, "FastFood");
-        modelCategoriesList.add(modelCategories);
-        modelCategories = new ModelCategories(R.drawable.ic_event, "Event Packages");
-        modelCategoriesList.add(modelCategories);
-        modelCategories = new ModelCategories(R.drawable.ic_more_food, "Others");
-        modelCategoriesList.add(modelCategories);
-
         categoriesAdapter = new CategoriesAdapter(this, modelCategoriesList);
         rvCategories.setAdapter(categoriesAdapter);
     }
 
     private void setTrending() {
-        modelTrending = new ModelTrending(R.drawable.complete_1,"Menu 1", "2.200 disukai");
+        modelTrending = new ModelTrending(R.drawable.complete_1,"MeatBandung", "Bandung");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_2,"Menu 2", "1.220 disukai");
+        modelTrending = new ModelTrending(R.drawable.complete_2,"MeatJakarta", "Jakarta");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_3,"Menu 3", "345 disukai");
+        modelTrending = new ModelTrending(R.drawable.complete_3,"MeatBali", "Bali");
         modelTrendingList.add(modelTrending);
-        modelTrending = new ModelTrending(R.drawable.complete_4,"Menu 4", "590 disukai");
+        modelTrending = new ModelTrending(R.drawable.complete_4,"MeatYogyakarta", "Yogyakarta");
         modelTrendingList.add(modelTrending);
 
         trendingAdapter = new TrendingAdapter(this, modelTrendingList);
