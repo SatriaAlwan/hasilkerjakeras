@@ -44,7 +44,7 @@
                     android:id="@+id/tvPlaceName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Complete Package"
+                    android:text="Cabang Restoran"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -53,14 +53,10 @@
                     android:id="@+id/tvVote"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2.300 disukai"
+                    android:text="Bandung"
                     android:textColor="@android:color/black"
                     android:textSize="14sp" />
-
             </LinearLayout>
-
         </RelativeLayout>
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

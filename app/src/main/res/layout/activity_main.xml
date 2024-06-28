@@ -13,32 +13,6 @@
         android:background="@android:color/transparent"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginEnd="18dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="Good Morning, Azhar"
-                    android:textColor="@color/black"
-                    android:textSize="24dp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -102,7 +76,7 @@
                         android:drawablePadding="10dp"
                         android:gravity="center_vertical"
                         android:padding="10dp"
-                        android:text="Margonda, Jawa Barat"
+                        android:text="BANDUNG"
                         android:textColor="#ffec2d2d"
                         android:textSize="12sp"
                         app:drawableStartCompat="@drawable/ic_location"
@@ -127,7 +101,7 @@
                         android:drawablePadding="10dp"
                         android:gravity="center_vertical"
                         android:padding="10dp"
-                        android:text="Order History"
+                        android:text="Booking Pesanan"
                         android:textColor="#ff2a7e2f"
                         android:textSize="12sp"
                         app:drawableStartCompat="@drawable/ic_access_time"
@@ -136,6 +110,30 @@
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="18dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="MeatStream"
+                        android:textColor="@color/black"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"

@@ -22,7 +22,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_logo" />
+                android:src="@drawable/ic_login" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -161,7 +161,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="20dp"
-        android:text="hungry? let's continue with these"
+        android:text="Gak Mau Ngantri Yuk Daftar"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
