@@ -29,7 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/paket_1" />
+                    android:src="@drawable/order_burger" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -157,7 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/paket_2" />
+                    android:src="@drawable/order_cornsoup" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -252,7 +252,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/paket_3" />
+                    android:src="@drawable/order_esteh" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -340,7 +340,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/paket_4" />
+                    android:src="@drawable/order_steak" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -434,8 +434,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/paket_5" />
+                    android:scaleType="fitXY" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -451,7 +450,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Paket 5"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -459,7 +457,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp 16.500"
                             android:textColor="@color/primary" />
 
                     </LinearLayout>
@@ -475,7 +472,6 @@
                             android:id="@+id/imageMinus5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_minus"
                             app:tint="@color/primary" />
 
                         <TextView
@@ -485,7 +481,6 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="10dp"
-                            android:text="0"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -494,7 +489,6 @@
                             android:id="@+id/imageAdd5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_add"
                             app:tint="@color/primary" />
 
                     </LinearLayout>
@@ -522,8 +516,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/paket_6" />
+                    android:scaleType="fitXY" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -539,7 +532,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Paket 6"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -547,7 +539,6 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp 26.000"
                             android:textColor="@color/primary" />
 
                     </LinearLayout>
@@ -563,7 +554,6 @@
                             android:id="@+id/imageMinus6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_minus"
                             app:tint="@color/primary" />
 
                         <TextView
@@ -573,7 +563,6 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="10dp"
-                            android:text="0"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -582,7 +571,6 @@
                             android:id="@+id/imageAdd6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_add"
                             app:tint="@color/primary" />
 
                     </LinearLayout>

@@ -26,8 +26,8 @@ public class OrderActivity extends AppCompatActivity {
 
     public static final String DATA_TITLE = "TITLE";
     String strTitle;
-    int paket1 = 10500, paket2 = 34000, paket3 = 23700, paket4 = 22500, paket5 = 16500, paket6 = 26000;
-    int itemCount1 = 0, itemCount2 = 0, itemCount3 = 0, itemCount4 = 0, itemCount5 = 0, itemCount6 = 0;
+    int paket1 = 10500, paket2 = 34000, paket3 = 23700, paket4 = 22500;
+    int itemCount1 = 0, itemCount2 = 0, itemCount3 = 0, itemCount4 = 0;
     int countP1, countP2, countP3, countP4, countP5, countP6, totalItems, totalPrice;
     ImageView imageAdd1, imageAdd2, imageAdd3, imageAdd4, imageAdd5, imageAdd6,
             imageMinus1, imageMinus2, imageMinus3, imageMinus4, imageMinus5, imageMinus6;
@@ -48,8 +48,6 @@ public class OrderActivity extends AppCompatActivity {
         setPaket2();
         setPaket3();
         setPaket4();
-        setPaket5();
-        setPaket6();
         setInputData();
     }
 
@@ -60,22 +58,16 @@ public class OrderActivity extends AppCompatActivity {
         tvPaket2 = findViewById(R.id.tvPaket2);
         tvPaket3 = findViewById(R.id.tvPaket3);
         tvPaket4 = findViewById(R.id.tvPaket4);
-        tvPaket5 = findViewById(R.id.tvPaket5);
-        tvPaket6 = findViewById(R.id.tvPaket6);
         tvJumlahPorsi = findViewById(R.id.tvJumlahPorsi);
         tvTotalPrice = findViewById(R.id.tvTotalPrice);
         imageAdd1 = findViewById(R.id.imageAdd1);
         imageAdd2 = findViewById(R.id.imageAdd2);
         imageAdd3 = findViewById(R.id.imageAdd3);
         imageAdd4 = findViewById(R.id.imageAdd4);
-        imageAdd5 = findViewById(R.id.imageAdd5);
-        imageAdd6 = findViewById(R.id.imageAdd6);
         imageMinus1 = findViewById(R.id.imageMinus1);
         imageMinus2 = findViewById(R.id.imageMinus2);
         imageMinus3 = findViewById(R.id.imageMinus3);
         imageMinus4 = findViewById(R.id.imageMinus4);
-        imageMinus5 = findViewById(R.id.imageMinus5);
-        imageMinus6 = findViewById(R.id.imageMinus6);
         btnCheckout = findViewById(R.id.btnCheckout);
 
         strTitle = getIntent().getExtras().getString(DATA_TITLE);
@@ -164,44 +156,8 @@ public class OrderActivity extends AppCompatActivity {
         });
     }
 
-    private void setPaket5() {
-        imageAdd5.setOnClickListener(v -> {
-            itemCount5 = itemCount5 + 1;
-            tvPaket5.setText(String.valueOf(itemCount5));
-            countP5 = paket5 * itemCount5;
-            setTotalPrice();
-        });
-
-        imageMinus5.setOnClickListener(v -> {
-            if (itemCount5 > 0) {
-                itemCount5 = itemCount5 - 1;
-                tvPaket5.setText(String.valueOf(itemCount5));
-            }
-            countP5 = paket5 * itemCount5;
-            setTotalPrice();
-        });
-    }
-
-    private void setPaket6() {
-        imageAdd6.setOnClickListener(v -> {
-            itemCount6 = itemCount6 + 1;
-            tvPaket6.setText(String.valueOf(itemCount6));
-            countP6 = paket6 * itemCount6;
-            setTotalPrice();
-        });
-
-        imageMinus6.setOnClickListener(v -> {
-            if (itemCount6 > 0) {
-                itemCount6 = itemCount6 - 1;
-                tvPaket6.setText(String.valueOf(itemCount6));
-            }
-            countP6 = paket6 * itemCount6;
-            setTotalPrice();
-        });
-    }
-
     private void setTotalPrice() {
-        totalItems = itemCount1 + itemCount2 + itemCount3 + itemCount4 + itemCount5 + itemCount6;
+        totalItems = itemCount1 + itemCount2 + itemCount3 + itemCount4;
         totalPrice = countP1 + countP2 + countP3 + countP4 + countP5 + countP6;
 
         tvJumlahPorsi.setText(totalItems + " items");
