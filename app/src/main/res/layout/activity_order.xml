@@ -33,7 +33,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
+                android:layout_height="200dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/bg_rounded"
                 android:backgroundTint="@color/primary"
@@ -76,24 +76,61 @@
                         android:layout_marginStart="20dp"
                         android:src="@drawable/ic_menu" />
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
-                        android:layout_toEndOf="@id/imgPickUp"
-                        android:orientation="vertical">
+                        android:layout_toEndOf="@id/imgPickUp">
 
                         <TextView
+                            android:id="@+id/tvJam"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Harga tertera untuk 1 porsi"
+                            android:text="Time Picker"
                             android:textColor="@android:color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
+                        <EditText
+                            android:id="@+id/etJam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvJam"
+                            android:hint="pilih waktu"/>
+                        <ImageButton
+                            android:id="@+id/btnJam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_access_time"
+                            android:layout_below="@id/tvJam"
+                            android:layout_alignParentEnd="true"/>
 
-                    </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvTanggal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pilih Tanggal"
+                            android:layout_below="@id/etJam"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <EditText
+                            android:id="@+id/etTanggal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvTanggal"
+                            android:hint="pilih waktu"/>
+                        <ImageButton
+                            android:id="@+id/btnTanggal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_date"
+                            android:layout_below="@id/tvTanggal"
+                            android:layout_alignParentEnd="true"/>
+
+
+                    </RelativeLayout>
 
                 </RelativeLayout>
 

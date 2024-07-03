@@ -80,6 +80,20 @@
                 android:text="Tanggal Pesan"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvtgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Pesan"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvjm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Pesan"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
 
         </LinearLayout>
 

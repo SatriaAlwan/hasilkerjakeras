@@ -35,12 +35,14 @@ public class OrderViewModel extends AndroidViewModel {
     }
 
     //untuk update data berdasarkan Id secara realtime
-    public void addDataOrder(final String strMenu, final int strJmlItems, final int strHarga) {
+    public void addDataOrder(final String strMenu, final int strJmlItems, final int strHarga, final String strTanggal, final String strJam) {
         Completable.fromAction(() -> {
                     DatabaseModel databaseModel = new DatabaseModel();
                     databaseModel.nama_menu = strMenu;
                     databaseModel.items = strJmlItems;
                     databaseModel.harga = strHarga;
+                    databaseModel.tanggal = strTanggal;
+                    databaseModel.jam = strJam;
                     databaseDao.insertData(databaseModel);
                 })
                 .subscribeOn(Schedulers.io())

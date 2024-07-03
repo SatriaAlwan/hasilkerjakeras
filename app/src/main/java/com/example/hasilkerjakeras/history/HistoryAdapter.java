@@ -43,8 +43,9 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
         final DatabaseModel data = modelDatabase.get(position);
 
         holder.tvNama.setText(data.getNama_menu());
-        holder.tvDate.setText(FunctionHelper.getToday());
-        holder.tvJml.setText(data.getItems() + " item");
+        holder.tvDate.setText(data.getTanggal());
+        holder.tvjam.setText(data.getJam());
+        holder.tvJml.setText(data.getItems() + " orang");
         holder.tvPrice.setText(FunctionHelper.rupiahFormat(data.getHarga()));
     }
 
@@ -56,12 +57,13 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
     //untuk inisialisasi id di Adapter
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tvNama, tvDate, tvJml, tvPrice;
+        public TextView tvNama, tvDate, tvJml, tvPrice, tvjam;
 
         public ViewHolder(View itemView) {
             super(itemView);
             tvNama = itemView.findViewById(R.id.tvNama);
             tvDate = itemView.findViewById(R.id.tvDate);
+            tvjam = itemView.findViewById(R.id.tvjm);
             tvJml = itemView.findViewById(R.id.tvJml);
             tvPrice = itemView.findViewById(R.id.tvPrice);
         }

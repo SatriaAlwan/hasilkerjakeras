@@ -30,7 +30,30 @@ public class DatabaseModel implements Serializable {
     @ColumnInfo(name = "password")
     public String password;
 
+    @ColumnInfo(name = "tanggal")
+    public String tanggal;
+
+    @ColumnInfo(name = "jam")
+    public String jam;
+
     public DatabaseModel() {}
+
+    // getters and setters for tanggal and jam
+    public String getTanggal() {
+        return tanggal;
+    }
+
+    public void setTanggal(String tanggal) {
+        this.tanggal = tanggal;
+    }
+
+    public String getJam() {
+        return jam;
+    }
+
+    public void setJam(String jam) {
+        this.jam = jam;
+    }
 
     public int getUid() {
         return uid;
